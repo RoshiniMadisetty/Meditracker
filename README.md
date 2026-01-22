@@ -5,7 +5,7 @@ The project follows a clean frontend–backend architecture and is suitable for 
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Managing daily medications can be challenging. MediTracker simplifies this by providing a centralized platform where users can add, view, and manage their medicine details with ease.
 
@@ -13,7 +13,7 @@ This project was developed as part of a Web Technologies (WT) course and demonst
 
 ---
 
-## ✨ Features
+##  Features
 
 - Add, update, and delete medication records
 - Track medicine details in an organized format
@@ -25,7 +25,7 @@ This project was developed as part of a Web Technologies (WT) course and demonst
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - HTML

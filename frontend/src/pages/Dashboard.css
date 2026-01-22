@@ -1,0 +1,74 @@
+.dash-wrapper {
+  padding: 30px;
+}
+
+.schedule-grid-2 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.schedule-box {
+  flex: 1;
+  min-width: 350px;
+  background: #e8f5ff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #dcffdc;
+  padding: 8px 12px;
+  margin-top: 8px;
+  border-radius: 6px;
+}
+
+.taken-btn {
+  background: #38c172;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.taken-btn:hover {
+  background: #2e9e5a;
+}
+
+.empty-text {
+  color: #888;
+}
+.schedule-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  background: #e9ffe9;
+}
+.taken-btn {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+.taken-btn.green {
+  background-color: #28a745;
+}
+.taken-btn.red {
+  background-color: #dc3545;
+}
+.pending-row {
+  background: #f8f9fa;
+}
+.taken-row {
+  background: #d4edda;
+}

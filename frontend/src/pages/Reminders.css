@@ -1,0 +1,36 @@
+.reminders-page {
+  padding: 30px;
+  background-color: #f9fafc;
+  min-height: 100vh;
+}
+
+.reminder-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.reminder-card {
+  flex: 1;
+  min-width: 300px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reminder-card h3 {
+  margin-top: 0;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.reminder-card.missed {
+  background-color: #ffeaea;
+  border: 1px solid #ffcccc;
+}
+
+.reminder-card p {
+  margin: 8px 0;
+  color: #333;
+}
